@@ -1,0 +1,376 @@
+[
+  {
+    "id": 282,
+    "ts": "2026-11-10T04:13:17Z",
+    "sim_ts": "2027-01-13T18:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 18,
+      "day": 9,
+      "obs": {
+        "events_ingested": 321844,
+        "decisions": 134,
+        "proposals": 17,
+        "applies": 14,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 281,
+    "ts": "2026-11-10T04:13:17Z",
+    "sim_ts": "2027-01-13T18:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "proposal_submitted",
+    "payload": {
+      "code": 200,
+      "data": {
+        "approval_id": "apr_00017",
+        "proposal_id": "Promote_stat_07643745b39a4daa",
+        "workflow_id": "ks_cancel",
+        "status": "pending",
+        "base_version": 14,
+        "changed_dims": [
+          "welcome_message"
+        ],
+        "created_at": "2027-01-13T18:00:00+05:30",
+        "expires_at": "2027-01-14T06:00:00+05:30"
+      },
+      "purpose": "promote",
+      "proposal_id": "Promote_stat_07643745b39a4daa"
+    }
+  },
+  {
+    "id": 279,
+    "ts": "2026-11-10T04:13:17Z",
+    "sim_ts": "2027-01-13T17:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 17,
+      "day": 9,
+      "obs": {
+        "events_ingested": 320944,
+        "decisions": 132,
+        "proposals": 16,
+        "applies": 14,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 278,
+    "ts": "2026-11-10T04:13:17Z",
+    "sim_ts": null,
+    "workflow_id": "ks_cancel",
+    "kind": "guardrail_blocked",
+    "payload": {
+      "cohort": "age_18_30",
+      "dim": "welcome_message",
+      "winner": "W2",
+      "max_drop": 0.02
+    }
+  },
+  {
+    "id": 271,
+    "ts": "2026-11-10T04:13:16Z",
+    "sim_ts": "2027-01-13T16:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 16,
+      "day": 9,
+      "obs": {
+        "events_ingested": 320043,
+        "decisions": 129,
+        "proposals": 15,
+        "applies": 14,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 270,
+    "ts": "2026-11-10T04:13:16Z",
+    "sim_ts": null,
+    "workflow_id": "ks_cancel",
+    "kind": "guardrail_blocked",
+    "payload": {
+      "cohort": "age_18_30",
+      "dim": "welcome_message",
+      "winner": "W2",
+      "max_drop": 0.02
+    }
+  },
+  {
+    "id": 264,
+    "ts": "2026-11-10T04:13:15Z",
+    "sim_ts": "2027-01-13T12:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 12,
+      "day": 9,
+      "obs": {
+        "events_ingested": 316442,
+        "decisions": 126,
+        "proposals": 15,
+        "applies": 13,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 263,
+    "ts": "2026-11-10T04:13:15Z",
+    "sim_ts": null,
+    "workflow_id": "ks_cancel",
+    "kind": "guardrail_blocked",
+    "payload": {
+      "cohort": "age_18_30",
+      "dim": "welcome_message",
+      "winner": "W2",
+      "max_drop": 0.02
+    }
+  },
+  {
+    "id": 260,
+    "ts": "2026-11-10T04:13:15Z",
+    "sim_ts": "2027-01-13T11:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 11,
+      "day": 9,
+      "obs": {
+        "events_ingested": 315541,
+        "decisions": 124,
+        "proposals": 15,
+        "applies": 13,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 253,
+    "ts": "2026-11-10T04:13:14Z",
+    "sim_ts": "2027-01-12T18:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 18,
+      "day": 8,
+      "obs": {
+        "events_ingested": 308137,
+        "decisions": 121,
+        "proposals": 14,
+        "applies": 12,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 251,
+    "ts": "2026-11-10T04:13:13Z",
+    "sim_ts": "2027-01-12T17:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 17,
+      "day": 8,
+      "obs": {
+        "events_ingested": 307237,
+        "decisions": 119,
+        "proposals": 14,
+        "applies": 12,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 248,
+    "ts": "2026-11-10T04:13:13Z",
+    "sim_ts": "2027-01-12T16:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 16,
+      "day": 8,
+      "obs": {
+        "events_ingested": 306336,
+        "decisions": 117,
+        "proposals": 14,
+        "applies": 12,
+        "auto_applies": 9,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 247,
+    "ts": "2026-11-10T04:13:13Z",
+    "sim_ts": null,
+    "workflow_id": "ks_cancel",
+    "kind": "guardrail_blocked",
+    "payload": {
+      "cohort": "age_18_30",
+      "dim": "welcome_message",
+      "winner": "W2",
+      "max_drop": 0.02
+    }
+  },
+  {
+    "id": 244,
+    "ts": "2026-11-10T04:13:12Z",
+    "sim_ts": "2027-01-12T12:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 12,
+      "day": 8,
+      "obs": {
+        "events_ingested": 302736,
+        "decisions": 115,
+        "proposals": 14,
+        "applies": 12,
+        "auto_applies": 8,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 239,
+    "ts": "2026-11-10T04:13:12Z",
+    "sim_ts": "2027-01-12T11:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 11,
+      "day": 8,
+      "obs": {
+        "events_ingested": 301836,
+        "decisions": 112,
+        "proposals": 13,
+        "applies": 12,
+        "auto_applies": 8,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 235,
+    "ts": "2026-11-10T04:13:11Z",
+    "sim_ts": "2027-01-11T18:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 18,
+      "day": 7,
+      "obs": {
+        "events_ingested": 294433,
+        "decisions": 109,
+        "proposals": 13,
+        "applies": 12,
+        "auto_applies": 8,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 231,
+    "ts": "2026-11-10T04:13:10Z",
+    "sim_ts": "2027-01-11T17:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 17,
+      "day": 7,
+      "obs": {
+        "events_ingested": 293533,
+        "decisions": 106,
+        "proposals": 13,
+        "applies": 12,
+        "auto_applies": 8,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 227,
+    "ts": "2026-11-10T04:13:10Z",
+    "sim_ts": "2027-01-11T16:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "decision_tick",
+    "payload": {
+      "hour": 16,
+      "day": 7,
+      "obs": {
+        "events_ingested": 292633,
+        "decisions": 103,
+        "proposals": 13,
+        "applies": 12,
+        "auto_applies": 8,
+        "llm_calls": 1,
+        "validations": 3
+      }
+    }
+  },
+  {
+    "id": 223,
+    "ts": "2026-11-10T04:13:09Z",
+    "sim_ts": "2027-01-11T13:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "config_changed",
+    "payload": {
+      "version": 14,
+      "actor": "controller_approved",
+      "changed_dims": [
+        "welcome_message",
+        "voice"
+      ],
+      "proposal_id": "Start_varian_8168a41427254c3e",
+      "approval_id": "apr_00013"
+    }
+  },
+  {
+    "id": 222,
+    "ts": "2026-11-10T04:13:09Z",
+    "sim_ts": "2027-01-11T13:00:00+05:30",
+    "workflow_id": "ks_cancel",
+    "kind": "apply",
+    "payload": {
+      "approval_id": "apr_00013",
+      "proposal_id": "Start_varian_8168a41427254c3e",
+      "purpose": "explore",
+      "code": 200,
+      "data": {
+        "workflow_id": "ks_cancel",
+        "version": 14,
+        "changed_dims": [
+          "welcome_message",
+          "voice"
+        ]
+      }
+    }
+  }
+]
